@@ -11,7 +11,7 @@ module.exports = {
      
 
       const embed = new EmbedBuilder()
-         .setColor('#0099ff')
+         .setColor('#FFB6C1')
       .setTitle('<a:nhay:1246437179647856671> Bot của Bún')
       .setDescription('Chào mừng đến với Music Bot!\n\n<a:music:1246437360749641838> Dưới đây là các lệnh có sẵn:\n\n' +
         '**/play :** Bắt đầu phát các bài hát.\n' +
