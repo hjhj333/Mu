@@ -50,7 +50,7 @@ async function play(client, interaction) {
             if (!player.playing && !player.paused) player.play();
         } else {
             const errorEmbed = new EmbedBuilder()
-                .setColor('#ff0000')
+                .setColor('#FFB6C1')
                 .setTitle('Error')
                 .setDescription('Không có kết quả được tìm thấy.');
 
@@ -62,7 +62,7 @@ async function play(client, interaction) {
 
         const embeds = [
             new EmbedBuilder()
-                .setColor('#4d9fd6')
+                .setColor('#FFB6C1')
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236794583732457473/7828-verify-ak.gif',
@@ -71,7 +71,7 @@ async function play(client, interaction) {
                 .setDescription('➡️ **Yêu cầu của bạn đã được xử lý thành công..**\n➡️** Vui lòng sử dụng các nút để kiểm soát hàng đợi**'),
 
             new EmbedBuilder()
-                .setColor('#ffea00')
+                .setColor('#FFB6C1')
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802032938127470/4104-verify-yellow.gif',
@@ -80,7 +80,7 @@ async function play(client, interaction) {
                 .setDescription('➡️ **Yêu cầu của bạn đã được xử lý thành công..**\n➡️** Vui lòng sử dụng các nút để kiểm soát hàng đợi**'),
 
             new EmbedBuilder()
-                .setColor('#FF0000')
+                .setColor('#FFB6C1')
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802049190920202/4104-verify-red.gif',
@@ -95,7 +95,7 @@ async function play(client, interaction) {
     } catch (error) {
         console.error('Error processing play command:', error);
         const errorEmbed = new EmbedBuilder()
-            .setColor('#ff0000')
+            .setColor('#FFB6C1')
             .setTitle('Error')
             .setDescription('Đã xảy ra lỗi trong khi xử lý yêu cầu của bạn.');
 
