@@ -52,26 +52,26 @@ function initializePlayer(client) {
         const queueLoopButton = new ButtonBuilder()
             .setCustomId("loopQueue")
             .setLabel("Loop Queue")
-            .setStyle(ButtonStyle.Primary);
+            .setStyle(ButtonStyle.Secondary);
 
         const disableLoopButton = new ButtonBuilder()
             .setCustomId("disableLoop")
             .setLabel("Disable Loop")
-            .setStyle(ButtonStyle.Primary);
+            .setStyle(ButtonStyle.Secondary);
 
         const skipButton = new ButtonBuilder()
             .setCustomId("skipTrack")
             .setLabel("Skip")
-            .setStyle(ButtonStyle.Success);
+            .setStyle(ButtonStyle.Secondary);
 
         const showQueueButton = new ButtonBuilder()
             .setCustomId("showQueue")
             .setLabel("Show Queue")
-            .setStyle(ButtonStyle.Primary);
+            .setStyle(ButtonStyle.Secondary);
         const clearQueueButton = new ButtonBuilder()
             .setCustomId("clearQueue")
             .setLabel("Clear Queue")
-            .setStyle(ButtonStyle.Danger);
+            .setStyle(ButtonStyle.Secondary);
 
 
         const actionRow = new ActionRowBuilder()
