@@ -23,7 +23,7 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 
 const serverCount = client.guilds.cache.size;
 setInterval(() => client.user.setActivity({ 
-  name:`Bé Bún`, 
+  name:`Đang Bán Bánh Tại Muffinie`, 
   type: ActivityType.Streaming,
   url: 'https://www.twitch.tv/clouds1510'}), 10000);
 client.errorLog = config.errorLog
