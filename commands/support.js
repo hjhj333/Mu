@@ -9,9 +9,6 @@ module.exports = {
     try {
 
       const supportServerLink = "https://discord.gg/muffinie";
-      const githubLink = "https://github.com/";
-      const replitLink = "https://replit.com/";
-      const youtubeLink = "https://www.youtube.com/";
         const embed = new EmbedBuilder()
             .setColor('#FFB6C1')
             .setAuthor({
@@ -19,8 +16,8 @@ module.exports = {
               iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=6638ae28&is=66375ca8&hm=13e4a1b91a95b2934a39de1876e66c11711c7b30ac1a91c2a158f2f2ed1c2fc6&', 
               url: 'https://discord.gg/muffinie'
           })
-            .setDescription(`➡️ **Tham gia máy chủ Discord của chúng tôi để được hỗ trợ và cập nhật:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+            .setDescription(`➡️ **Tham gia máy chủ Discord của chúng tôi để được hỗ trợ và cập nhật:**\n- Discord - ${supportServerLink}`)
+            .setImage('https://media.discordapp.net/attachments/1248156331785850901/1250653963716399164/zzz.gif?ex=666bb9c4&is=666a6844&hm=bdaf72a3a266c9e22621fe11f98dbb75834818f3896ca27ddcefcbcd78dd80c2&=&width=1165&height=655')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
